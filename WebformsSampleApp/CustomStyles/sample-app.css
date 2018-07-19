@@ -1,0 +1,20 @@
+﻿.chartContainer {
+	margin: 5px 5px 5px 5px;
+	width: 300px;
+	height: 370px;
+	display: inline-block;
+}
+
+.votingChartContainer {
+	margin: 5px 5px 5px 5px;
+	width: 320px;
+	height: 420px;
+	display: inline-block;
+}
+
+.requestChartContainer {
+	margin: 5px 5px 5px 5px;
+	width: 420px;
+	height: 520px;
+	display: inline-block;
+}

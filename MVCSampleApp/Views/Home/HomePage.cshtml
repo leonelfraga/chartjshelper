@@ -1,0 +1,10 @@
+﻿@{
+    Layout = "~/Layout/_MainLayout.cshtml";
+}
+
+<div style="width:100%;vertical-align:top;height:auto;">
+	@Html.Raw(ViewBag.PieChart)
+	@Html.Raw(ViewBag.DoughnutChart)
+	@Html.Raw(ViewBag.LineChart)
+	@Html.Raw(ViewBag.BarChart)
+</div>

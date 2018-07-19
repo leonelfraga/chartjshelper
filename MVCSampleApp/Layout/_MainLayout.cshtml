@@ -1,0 +1,29 @@
+﻿@inherits System.Web.Mvc.WebViewPage
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>ChartJS Helper Sample Application</title>
+
+	<link rel="stylesheet" type="text/css" href="~/CustomStyles/sample-app.css" />
+	<link rel="stylesheet" type="text/css" href="~/Content/bootstrap.min.css" />
+
+	<script type="text/javascript" src="~/Scripts/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="~/Scripts/bootstrap.min.js"></script>
+	<script type="text/javascript" src="~/Scripts/Chart.min.js"></script>
+</head>
+<body>
+	<div class="panel panel-default" style="height:auto;">
+		<div class="panel-heading">
+			<h4>ChartJS Helper Sample Application</h4>
+		</div>
+		<div class="panel-body" style="height:auto;">
+			@RenderBody()
+		</div>
+		<div class="panel-footer text-center">
+			<span>&copy;2018 - Leonel Fraga de Oliveira - <a href="http://leonelfraga.com/neomatrixtech" target="_blank">http://leonelfraga.com/neomatrixtech</a></span>
+		</div>
+	</div>
+</body>
+</html>

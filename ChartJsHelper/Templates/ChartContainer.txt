@@ -1,0 +1,14 @@
+﻿<div class="panel panel-default @CONTAINER_CSS_CLASS">
+	<div class="panel-heading text-center">
+		<h4>@CHART_TITLE</h4>
+	</div>
+	<div class="panel-body">
+		<canvas id="@CHART_CONTAINER_ID" width="400" height="400"></canvas>
+		<script type="text/javascript">
+			@CHART_JAVASCRIPT
+		</script>
+		<div style="width:100%;text-align:center;">
+			<span>@ADDITIONAL_FOOTER_INFO</span>
+		</div>
+	</div>
+</div>

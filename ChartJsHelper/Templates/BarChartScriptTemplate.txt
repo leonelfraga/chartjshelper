@@ -1,0 +1,35 @@
+﻿var ctx = $("#@CHART_CONTAINER_ID");
+var myChart = new Chart(ctx, {
+	type: 'bar',
+	data: {
+		datasets: [@CHART_DATASETS],
+		labels: [@VALUE_LABELS]
+	},
+	options: {
+		responsive: true,
+		tooltips: {
+			mode: 'index',
+			intersect: false,
+		},
+		hover: {
+			mode: 'nearest',
+			intersect: true
+		},
+		scales: {
+			xAxes: [{
+				display: true,
+				scaleLabel: {
+					display: true,
+					labelString: '@TITLE_X'
+				}
+			}],
+			yAxes: [{
+				display: true,
+				scaleLabel: {
+					display: true,
+					labelString: '@TITLE_Y'
+				}
+			}]
+		}
+	}
+});

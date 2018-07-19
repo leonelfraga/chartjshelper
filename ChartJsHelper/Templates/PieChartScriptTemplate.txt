@@ -1,0 +1,11 @@
+﻿var ctx = $("#@CHART_CONTAINER_ID");
+var myChart = new Chart(ctx, {
+	type: 'pie',
+	data: {
+		datasets: [{
+			data: [@VALUE_POINTS],
+			backgroundColor: [@CHART_DATA_COLORS]
+		}],
+		labels: [@VALUE_LABELS],
+	}
+});
